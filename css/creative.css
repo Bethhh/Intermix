@@ -18,7 +18,7 @@ body {
 
 hr {
     max-width: 50px;
-    border-color: #6cd5de;
+    border-color: #6cd5be
     border-width: 3px;
 }
 
@@ -27,7 +27,7 @@ hr.light {
 }
 
 a {
-    color: #6cd5de;
+    color: #6cd5be;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -54,7 +54,7 @@ p {
 }
 
 .bg-primary {
-    background-color: #6cd5de;
+    background-color: #6cd5be;
 }
 
 .bg-dark {
@@ -91,7 +91,7 @@ aside {
     text-transform: uppercase;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
-    color: #6cd5de;
+    color: #6cd5be;
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
@@ -109,12 +109,12 @@ aside {
 
 .navbar-default .nav > li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
-    color: #6cd5de;
+    color: #6cd5be;
 }
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: #6cd5de!important;
+    color: #6cd5be!important;
     background-color: transparent;
 }
 
@@ -155,7 +155,7 @@ aside {
 
     .navbar-default.affix .navbar-header .navbar-brand {
         font-size: 14px;
-        color: #6cd5de;
+        color: #6cd5be;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
@@ -170,7 +170,7 @@ aside {
 
     .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
-        color: #6cd5de;
+        color: #6cd5be;
     }
 }
 
@@ -325,7 +325,7 @@ header .header-content .header-content-inner p {
 }
 
 .text-primary {
-    color: #6cd5de;
+    color: #6cd5be;
 }
 
 .no-gutter > [class*=col-] {
@@ -387,9 +387,9 @@ fieldset[disabled] .btn-default.active {
 }
 
 .btn-primary {
-    border-color: #6cd5de;
+    border-color: #6cd5be;
     color: #fff;
-    background-color: #6cd5de;
+    background-color: #6cd5be;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -401,7 +401,7 @@ fieldset[disabled] .btn-default.active {
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-    border-color: #6cd5de;
+    border-color: #6cd5be;
     color: #fff;
     background-color: #ee4b28;
 }
@@ -430,12 +430,12 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #6cd5de;
-    background-color: #6cd5de;
+    border-color: #6cd5be;
+    background-color: #6cd5be;
 }
 
 .btn-primary .badge {
-    color: #6cd5de;
+    color: #6cd5be;
     background-color: #fff;
 }
 
