@@ -2,6 +2,8 @@
  * Start Bootstrap - Creative Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ *
+ * #6cd5be  (108,213,190)
  */
 
 html,
@@ -16,7 +18,7 @@ body {
 
 hr {
     max-width: 50px;
-    border-color: #18bc9c;
+    border-color: #6cd5de;
     border-width: 3px;
 }
 
@@ -25,7 +27,7 @@ hr.light {
 }
 
 a {
-    color: #18bc9c;
+    color: #6cd5de;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -52,7 +54,7 @@ p {
 }
 
 .bg-primary {
-    background-color: #18bc9c;
+    background-color: #6cd5de;
 }
 
 .bg-dark {
@@ -89,7 +91,7 @@ aside {
     text-transform: uppercase;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
-    color: #18bc9c;
+    color: #6cd5de;
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
@@ -107,12 +109,12 @@ aside {
 
 .navbar-default .nav > li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
-    color: #18bc9c;
+    color: #6cd5de;
 }
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: #18bc9c!important;
+    color: #6cd5de!important;
     background-color: transparent;
 }
 
@@ -153,7 +155,7 @@ aside {
 
     .navbar-default.affix .navbar-header .navbar-brand {
         font-size: 14px;
-        color: #18bc9c;
+        color: #6cd5de;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
@@ -168,7 +170,7 @@ aside {
 
     .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
-        color: #18bc9c;
+        color: #6cd5de;
     }
 }
 
@@ -274,7 +276,7 @@ header .header-content .header-content-inner p {
     text-align: center;
     color: #fff;
     opacity: 0;
-    background: rgba(24,188,156,.9);
+    background: rgba(108,213,190,.9);
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -323,7 +325,7 @@ header .header-content .header-content-inner p {
 }
 
 .text-primary {
-    color: #18bc9c;
+    color: #6cd5de;
 }
 
 .no-gutter > [class*=col-] {
@@ -385,9 +387,9 @@ fieldset[disabled] .btn-default.active {
 }
 
 .btn-primary {
-    border-color: #18bc9c;
+    border-color: #6cd5de;
     color: #fff;
-    background-color: #18bc9c;
+    background-color: #6cd5de;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -399,7 +401,7 @@ fieldset[disabled] .btn-default.active {
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-    border-color: #18bc9c;
+    border-color: #6cd5de;
     color: #fff;
     background-color: #ee4b28;
 }
@@ -428,12 +430,12 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #18bc9c;
-    background-color: #18bc9c;
+    border-color: #6cd5de;
+    background-color: #6cd5de;
 }
 
 .btn-primary .badge {
-    color: #18bc9c;
+    color: #6cd5de;
     background-color: #fff;
 }
 
