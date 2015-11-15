@@ -55,7 +55,9 @@
        function fbShare(url, w, h) {
          var top = (screen.height / 2) - (w / 2);
          var left = (screen.width / 2) - (h / 2);
-         window.open('http://www.facebook.com/sharer.php?s=100&p[url]=' + url, 'sharer', 'top=' + top + ',left=' + left + ',toolbar=0,status=0,width=' + w + ',height=' + h);
+         window.open('http://www.facebook.com/sharer.php?s=100&p[url]=' + url, 
+                     'sharer', 'top=' + top + ',left=' + left + 
+                     ',toolbar=0,status=0,width=' + w + ',height=' + h);
        }
     </script>
 
@@ -296,8 +298,10 @@
                         <h3>Share With Your Friends</h3>
                         <ul class="list-inline">
                             <li>
-                                <a href="javascript:fbShare('https://mixtern.herokuapp.com/index.html', 520, 350)", target="_blank" id="u_0_1" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
-                                <div class="fb-share-button" data-href="https://mixtern.herokuapp.com/index.html" data-layout="icon"></div>
+                                <a href="javascript:fbShare('https://mixtern.herokuapp.com/index.html', 520, 350)", 
+                                   target="_blank" id="u_0_1" class="btn-social btn-outline">
+                                   <i class="fa fa-fw fa-facebook"></i>
+                                </a>
                             </li>
                             <li>
                                 <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
