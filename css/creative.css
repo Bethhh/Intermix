@@ -307,8 +307,8 @@ header .header-content .header-content-inner p {
     transform: translateY(-50%);
 }
 
-.company-box .company-box-caption .company-box-caption-content .project-category,
-.company-box .company-box-caption .company-box-caption-content .project-name {
+.company-box, /* .company-box-caption .company-box-caption-content .project-category,*/
+.company-box /*.company-box-caption .company-box-caption-content .project-name*/ {
     padding: 0 15px;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
