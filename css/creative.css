@@ -542,6 +542,13 @@ section#contact .section-heading {
     color: #fff;
 }
 
+section#contact .email-link {
+    color: #fff;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
 section#msg {
     background-color: #fff;
     background-position: center;
