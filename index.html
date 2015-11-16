@@ -67,10 +67,26 @@
                      ',toolbar=0,status=0,width=' + w + ',height=' + h);
        }
        function twShare(url, w, h) {
-
+         var top = (screen.height / 2) - (w / 2);
+         var left = (screen.width / 2) - (h / 2);
+         window.open('http://twitter.com/intent/tweet?status=' + "MixTern - Find your intern roommates!   " + url, 
+                     'sharer', 'top=' + top + ',left=' + left + 
+                     ',toolbar=0,status=0,width=' + w + ',height=' + h);
        }
+       //TODO: not working 
        function pShare(url, w, h) {
-
+         var top = (screen.height / 2) - (w / 2);
+         var left = (screen.width / 2) - (h / 2);
+         window.open('http://pinterest.com/pin/create/bookmarklet/?url=' + url, 
+                     'sharer', 'top=' + top + ',left=' + left + 
+                     ',toolbar=0,status=0,width=' + w + ',height=' + h);
+       }
+       function lShare(url, w, h) {
+         var top = (screen.height / 2) - (w / 2);
+         var left = (screen.width / 2) - (h / 2);
+         window.open('http://www.linkedin.com/shareArticle?mini=true&url=' + url, 
+                     'sharer', 'top=' + top + ',left=' + left + 
+                     ',toolbar=0,status=0,width=' + w + ',height=' + h);
        }
     </script>
 
@@ -311,19 +327,19 @@
                                </a>
                             </li>
                             <li>
-                                <a href="javascript:fbShare('https://mixtern.herokuapp.com/index.html', 520, 350)", 
+                                <a href="javascript:twShare('https://mixtern.herokuapp.com/index.html', 520, 350)", 
                                    target="_blank" id="u_0_1" class="btn-social btn-outline">
                                    <i class="fa fa-fw fa-twitter"></i>
                                </a>
                             </li>
                             <li>
-                                <a href="javascript:fbShare('https://mixtern.herokuapp.com/index.html', 520, 350)", 
+                                <a href="javascript:lShare('https://mixtern.herokuapp.com/index.html', 520, 350)", 
                                    target="_blank" id="u_0_1" class="btn-social btn-outline">
                                    <i class="fa fa-fw fa-linkedin"></i>
                                </a>
                             </li>
                             <li>
-                                <a hhref="javascript:fbShare('https://mixtern.herokuapp.com/index.html', 520, 350)", 
+                                <a hhref="javascript:pShare('https://mixtern.herokuapp.com/index.html', 520, 350)", 
                                    target="_blank" id="u_0_1" class="btn-social btn-outline">
                                    <i class="fa fa-fw fa-pinterest"></i>
                                </a>
