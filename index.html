@@ -60,7 +60,11 @@
                      ',toolbar=0,status=0,width=' + w + ',height=' + h);
        }
        function gShare(url, w, h) {
-
+         var top = (screen.height / 2) - (w / 2);
+         var left = (screen.width / 2) - (h / 2);
+         window.open('https://plus.google.com/share?url=' + url, 
+                     'sharer', 'top=' + top + ',left=' + left + 
+                     ',toolbar=0,status=0,width=' + w + ',height=' + h);
        }
        function twShare(url, w, h) {
 
@@ -301,7 +305,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="javascript:fbShare('https://mixtern.herokuapp.com/index.html', 520, 350)", 
+                                <a href="javascript:gShare('https://mixtern.herokuapp.com/index.html', 520, 350)", 
                                    target="_blank" id="u_0_1" class="btn-social btn-outline">
                                    <i class="fa fa-fw fa-google-plus"></i>
                                </a>
@@ -321,7 +325,7 @@
                             <li>
                                 <a hhref="javascript:fbShare('https://mixtern.herokuapp.com/index.html', 520, 350)", 
                                    target="_blank" id="u_0_1" class="btn-social btn-outline">
-                                   <i class="fa fa-fw fa-dribbble"></i>
+                                   <i class="fa fa-fw fa-pinterest"></i>
                                </a>
                             </li>
                         </ul>
