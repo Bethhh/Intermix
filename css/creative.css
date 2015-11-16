@@ -528,6 +528,14 @@ footer .footer-below {
     line-height: 45px;
 }
 
+section#prototype {
+    background-color: #6cd5be;
+}
+
+section#prototype .section-heading {
+    color: #222;
+}
+
 section#contact {
     background-color: #6cd5be;
     background-position: center;
