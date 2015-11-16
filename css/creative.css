@@ -534,60 +534,74 @@ section#contact {
     background-repeat: no-repeat;
 }
 
+section#contact {
+    padding-bottom: 0px;
+}
+
 section#contact .section-heading {
     color: #fff;
 }
 
-section#contact .form-group {
+section#msg {
+    background-color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section#msg .section-heading {
+    color: #222;
+}
+
+section#msg .form-group {
     margin-bottom: 25px;
 }
 
-section#contact .form-group input,
-section#contact .form-group textarea {
+section#msg .form-group input,
+section#msg .form-group textarea {
     padding: 20px;
 }
 
-section#contact .form-group input.form-control {
+section#msg .form-group input.form-control {
     height: auto;
 }
 
-section#contact .form-group textarea.form-control {
+section#msg .form-group textarea.form-control {
     height: 150px;
 }
 
-section#contact .form-control:focus {
+section#msg .form-control:focus {
     border-color: #fed136;
     box-shadow: none;
 }
 
-section#contact::-webkit-input-placeholder {
+section#msg::-webkit-input-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#contact:-moz-placeholder {
+section#msg:-moz-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#contact::-moz-placeholder {
+section#msg::-moz-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#contact:-ms-input-placeholder {
+section#msg:-ms-input-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#contact .text-danger {
+section#msg .text-danger {
     color: #e74c3c;
 }
